@@ -1,1 +1,38 @@
+# screen
+
+I developed a simple web application using the Flask framework in Python. 
+
+Frontend: 
+-	Used inline CSS to ensure that the user interface has a uniform and clean design.
+-	Made more screens: main menu, parking, safety instructions, waiting, and return.
+-	The main menu gives the user options to "Park the car" or "Pick up the car" with interactive buttons.
+
+Backend (Flask router):
+-	main_menu(): Displays the main menu to navigate to the various functions.
+-	park_screen(): Generates a unique parking receipt ID and allows the user to proceed.
+-	safety_instructions_screen(): Displays a list of safety instructions before parking.
+-	park_wait_screen(): Waits a couple of seconds before the car is allegedly parked.
+-	end_parking_screen(): Confirms that the car has been parked.
+-	retrieve_screen(): Allows the user to enter their receipt ID to retrieve the car.
+-	 end_retrieval_screen(): Informs the user that the car is ready for collection.
+
+Additional features:
+-	 Implemented a generate_parking_receipt_id() function to generate unique receipt IDs.
+-	Used JavaScript to handle timing to simulate parking and picking up cars.
+Technical Detail:
+-	Flask was used to handle the backend logic.
+-	The port for the application was set to 5000 and the server is running in debug mode for easy testing.
+
+To open and run the application:
+- Ensure that the same network on the PC and the screen
+- Open in terminal 
+- Start the application
+- Open a browser and go to the address 
+- When the application is open, you can:
+o Park the car: Click on "Park Your Car".
+o Follow safety instructions: Confirm safety before parking.
+o Retrieve the car: Click on "Retrieve Your Car" and enter the receipt ID.
+
+
+
 
